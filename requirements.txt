@@ -1,0 +1,13 @@
+numpy
+pandas
+scipy
+scikit-learn
+librosa
+soundfile
+matplotlib
+seaborn
+joblib
+shap
+lime
+ipython
+jupyter
