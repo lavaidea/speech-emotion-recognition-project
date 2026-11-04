@@ -26,7 +26,6 @@ How well do handcrafted acoustic features generalize to **unseen speakers** in e
 4. Install packages from `requirements.txt` or the notebook installation cells. Save exported CSV/JSON/model artifacts to the same Drive project folder.
 
 
-**Note:** Notebook outputs were intentionally cleared in this GitHub package because they were produced in a differently named Drive folder. The code has not been rerun in this environment; all numeric claims must be regenerated and checked in Colab.
 
 ## Notebook guide
 | Notebook | Purpose |
