@@ -41,3 +41,34 @@ These are **questions to test**, not guaranteed findings. Interpret SHAP/LIME as
 | 07 | SHAP/LIME interpretability **(separate Extra Trees analysis; not necessarily the frozen final model)** |
 
 
+## Dataset and Reproducibility
+
+This project uses the RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) dataset.
+
+### Data availability
+
+The dataset and precomputed acoustic features are available in the following Google Drive folder:
+
+[Download RAVDESS project data](https://drive.google.com/drive/folders/1hKh4K0K_2L4z0EoAl1wtNxoENnwth2yV?usp=sharing)
+
+The folder contains:
+
+- `Audio_Speech_Actors_01-24.zip` — original speech recordings.
+- `processed/ravdess_features.csv` — baseline acoustic features.
+- `processed/ravdess_metadata.csv` — dataset metadata.
+- `processed/ravdess_trimming_analysis.csv` — preprocessing analysis.
+- `processed/ravdess_v2_delta_rmsdiff_20261104/` — additional feature representations and trimming experiments.
+
+### Reproduction
+
+The experiments were developed in Google Colab using Python.
+
+To reproduce the experiments:
+
+1. Download the project notebooks from this GitHub repository.
+2. Download the dataset and processed features from the Google Drive link above.
+3. Install the dependencies listed in `requirements.txt`.
+4. Configure `PROJECT_DIR` to point to the local project directory containing `data/`.
+5. Execute the notebooks in numerical order.
+
+**Note:** The current notebooks use Google Drive paths specific to the original development environment. These paths must be adapted before running the notebooks in a different environment.
