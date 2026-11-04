@@ -10,7 +10,6 @@ How well do handcrafted acoustic features generalize to **unseen speakers** in e
 - **H2:** The silence-trimming threshold changes emotion recognition performance.
 - **H3:** Results differ between grouped cross-validation and held-out actors; some emotions are consistently confused.
 
-These are **questions to test**, not guaranteed findings. Interpret SHAP/LIME as explanations of model behavior, not causal evidence about emotion.
 
 ## Experimental protocol
 - **Train / grouped CV:** actors 01–12; grouping by actor to prevent speaker leakage.
